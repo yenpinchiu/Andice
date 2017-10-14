@@ -1,0 +1,2 @@
+# Andice
+Android Dice Dimulator
