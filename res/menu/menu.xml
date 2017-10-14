@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:id="@+id/group_1" 
+            android:checkableBehavior="all">  
+<item android:checkable="true" 
+      android:checked="true" 
+      android:id="@+id/check1"
+      android:title="@string/ds1"></item>
+<item android:checkable="true" 
+      android:checked="true" 
+      android:id="@+id/check2"
+      android:title="@string/ds2"></item>
+<item android:checkable="true" 
+      android:checked="true" 
+      android:id="@+id/check3"
+      android:title="@string/ds3"></item>
+       </group> 
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:id="@+id/group01" android:checkableBehavior="all"><item android:id="@+id/item01" android:checkable="true" android:checked="false" android:title="@string/gravity"></item>
+<item android:checked="false" android:checkable="true" android:title="@string/cheat" android:id="@+id/item02"></item>
+</group>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_alignBaseline="@+id/AbsoluteLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   >
+    
+
+
+<Button android:text="take photo" 
+        android:id="@+id/Button01" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:onClick = "photo"
+        android:layout_y="330px"
+         android:layout_x="10px"></Button>
+
+<Button android:text="apply photo" 
+        android:id="@+id/Button02" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:onClick = "save"
+        android:layout_y="330px"
+        android:layout_x="120px"></Button>
+        
+<Button android:text="back" 
+        android:id="@+id/Button02" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:onClick = "back"
+        android:layout_y="400px"
+        android:layout_x="250px"></Button>
+
+<TextView android:text="Edit Which Dice" 
+          android:layout_y="0px" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/TextView01" 
+          android:layout_x="0px" 
+          android:layout_height="wrap_content"
+          android:textColor="#FFFFFF" ></TextView>
+         
+<TextView android:text="Edit Which Face" 
+          android:layout_y="100px" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/TextView02" 
+          android:layout_x="10px" 
+          android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"></TextView>
+       
+
+
+<Button android:id="@+id/Button03" android:layout_x="0dip" android:text="Dice 1" android:layout_height="wrap_content" android:layout_y="20px" android:layout_width="90px" android:onClick = "who1"></Button>
+<Button android:id="@+id/Button04" android:layout_x="110dip" android:text="Dice 2" android:layout_height="wrap_content" android:layout_y="20px" android:layout_width="90px" android:onClick = "who2"></Button>
+<Button android:id="@+id/Button05" android:layout_x="220dip" android:text="Dice 3" android:layout_height="wrap_content" android:layout_y="20px" android:layout_width="90px" android:onClick = "who3"></Button>
+
+<Button android:id="@+id/Button06" android:layout_x="0dip" android:text="face1" android:layout_height="wrap_content" android:layout_y="120px" android:layout_width="90px" android:onClick = "which1"></Button>
+<Button android:id="@+id/Button07" android:layout_x="110dip" android:text="face2" android:layout_height="wrap_content" android:layout_y="120px" android:layout_width="90px" android:onClick = "which2"></Button>
+<Button android:id="@+id/Button08" android:layout_x="220dip" android:text="face3" android:layout_height="wrap_content" android:layout_y="120px" android:layout_width="90px" android:onClick = "which3"></Button>
+<Button android:id="@+id/Button09" android:layout_x="0dip" android:text="face4" android:layout_height="wrap_content" android:layout_y="200px" android:layout_width="90px" android:onClick = "which4"></Button>
+<Button android:id="@+id/Button10" android:layout_x="110dip" android:text="face5" android:layout_height="wrap_content" android:layout_y="200px" android:layout_width="90px" android:onClick = "which5"></Button>
+<Button android:id="@+id/Button11" android:layout_x="220dip" android:text="face6" android:layout_height="wrap_content" android:layout_y="200px" android:layout_width="90px" android:onClick = "which6"></Button>
+
+
+<Button android:layout_x="10px" 
+        android:layout_width="wrap_content" 
+        android:layout_y="400px" 
+        android:text="default style" 
+        android:id="@+id/Button12" 
+        android:layout_height="wrap_content"
+        android:onClick = "defaults"></Button>
+        
+<Button android:layout_x="125px" 
+        android:layout_width="wrap_content" 
+        android:layout_y="400px" 
+        android:text="special style" 
+        android:id="@+id/Button13" 
+        android:layout_height="wrap_content"
+        android:onClick = "style"></Button>
+        
+</AbsoluteLayout>

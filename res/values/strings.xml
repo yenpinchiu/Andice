@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, andice!</string>
+    <string name="app_name">AnDice</string>
+<string name="dice">dice</string>
+<string name="custom">custom</string>
+
+
+<string name="ds1">dice 1</string><string name="ds2">dice 2</string>
+
+<string name="ds3">dice 3</string>
+<string name="gravity">Gravity</string>
+<string name="cheat">Cheat</string>
+</resources>
