@@ -1,2 +1,2 @@
 # Andice
-Android Dice Dimulator
+Android Dice Simulator
